@@ -13,8 +13,14 @@
         margin: 0;
         padding: 0;
         border-top: 5px solid #424242;
+    }
+
+    .wrapper {
         min-height: 100%;
+        display: flex;
+        flex-direction: column;
         display: grid;
+        grid-template-rows: auto 1fr auto;
         }
 
     h3 {
@@ -82,6 +88,8 @@
     </style>
   </head>
   <body>
+
+<div class="wrapper">
     <div id="main">
       <h1 class="title" >My name is Lennard Stam. </h1>
       <div class="divider"></div>
@@ -117,6 +125,7 @@
       </p>
       <div class="divider"></div>
    </div>
+</div>
 
   </body>
 </html>
