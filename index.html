@@ -84,11 +84,14 @@
 
     #footer {
         background:#F8F8F8;
-        margin: 0% 5%;
    }
 
+    #wrapper-footer{
+        margin: 0% 5%;
+}
+
     @media screen and (min-width: 992px) {
-        #main, #footer {
+        #main, #wrapper-footer {
         padding-left: 10%;
         padding-right: 45%;
         }
@@ -150,10 +153,12 @@
    </div>
 
      <div id="footer">
-       <p class="footer_copy">
-        Copyright © 2021 by Lennard Stam.
-      </p>
-      <div class="divider"></div>
+        <div id="wrapper-footer">
+           <p class="footer_copy">
+            Copyright © 2021 by Lennard Stam.
+          </p>
+          <div class="divider"></div>
+        </div>
    </div>
 </div>
 
