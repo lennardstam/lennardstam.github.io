@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Lennard Stam</title>
+    <meta name="author" content="Lennard Stam">
+    <meta name="description" content="A description for this result is not available because the site's owner was too lazy to write one.">
+
+    <link rel='stylesheet' href='style.css'/>
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+
+    <!-- Custom Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
+    <!--<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">-->
+
+
+
+
+
+  </head>
+  <body>
+
+
+<div class="wrapper">
+    <div class="top_border">
+
+ <nav>
+    <ul>
+  <li><a href="./tools/">Tools</a></li>
+  <li><a href="/links/">Links</a></li>
+  <!-- <li><a href="/p/">Photos</a></li> -->
+  <li><a href="/domains/">Domains</a></li>
+  <li><a class="twitter" href="https://twitter.com/lennardstam" target="_blank" rel="noopener">Tweets</a></li>
+</ul>
+    </nav>
+
+    </div>
+
+    <div id="main">
+      <h1 class="title" >Tools I use. </h1>
+      <div class="divider"></div>
+
+     <h3>Desktop</h3>
+
+        <ul><li>
+       <a href="https://elementary.io/" rel="noopener noreferrer">Elementary OS</a>.
+            Sleek, fast and distraction free operating system.
+        </li><li>
+        <a href="https://typora.io/" rel="noopener noreferrer">Typora</a>.
+            A truly minimal markdown editor.
+        </li><li>
+        <a href="https://www.enpass.io/" rel="noopener noreferrer">Enpass</a>.
+            To manage my passwords.
+        </li><li>
+        <a href="https://insomnia.rest/" rel="noopener noreferrer">Insomnia</a>.
+        Design, and test APIs like a human, not a robot.
+        </li><li>
+        <a href="https://www.mozilla.org/en-US/firefox/new/"Firefox rel="noopener noreferrer">Firefox</a>.
+            My browser of choice.
+        </li></ul>
+
+
+        <h3>Backup & snapshot</h3>
+
+        <ul><li>
+       <a href="http://snapper.io/" rel="noopener noreferrer">Snapper</a>. The ultimate snapshot tool for Linux
+        </li><li>
+       <a href="https://digint.ch/btrbk/" rel="noopener noreferrer">Btrbk</a>. Btrbk is a backup tool for btrfs subvolumes.
+        </li><li>
+       <a href="http://duplicity.nongnu.org/" rel="noopener noreferrer">Duplicity</a>. Encrypted bandwidth-efficient backup using the rsync algorithm
+        </li><li>
+       <a href="https://www.offlineimap.org/" rel="noopener noreferrer">OfflineIMAP</a>. Get the emails where you need them.
+        </li></ul>
+
+     <h3>Self Hosted</h3>
+
+        <ul><li>
+        <a href="https://www.portainer.io/">Portainer</a>. Container management made easy.
+        </li><li>
+        <a href="https://filerun.com/" rel="noopener noreferrer">Filerun</a>. File Sync and Sharing with markdown support.
+        </li><li>
+        <a href="https://syncthing.net/" rel="noopener noreferrer">Syncthing</a>. Continuous file synchronization.
+        </li><li>
+        <a href="https://gitlist.org/">Gitlist</a>.  An elegant and modern git repository viewer
+        </li><li>
+        <a href="plex.tv/">PLEX</a>. Media player.
+        </li><li>
+        <a href="https://github.com/DavidMStraub/netviel">Net viel</a>. Web interface for the notmuch e-mail system.
+        </li><li>
+        <a href="https://github.com/AnalogJ/scrutiny">Scrutiny</a>. Hard Drive S.M.A.R.T Monitoring.
+        </li><li>
+        <a href="https://photoprism.app/">Photoprism</a>. App for browsing, organizing, and sharing your photo collection.
+        </li></ul>
+
+
+
+
+   </div>
+</div>
+
+</body></html>
+
+
+
+

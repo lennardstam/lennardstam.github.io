@@ -1,0 +1,151 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 1em;
+        min-width: 400px;
+
+    }
+
+    nav ul{
+    float:right;
+    list-style:none;
+    padding:0;
+    margin:0;
+    margin-top:-20px
+    }
+
+    nav li{
+    display:inline-block;
+    padding:25px 0 0 20px}
+
+    nav li a,nav li a:active,nav li a:visited{
+    text-decoration:none;
+    font-weight:500;
+    text-transform: uppercase;
+    color:#111}
+
+    nav li a:hover{
+/*    padding-bottom:3px; */
+    padding-bottom:14px;
+    border-bottom:4px solid #F39200
+    }
+
+    nav li a.twitter:hover{
+    border-bottom:4px solid #55acee
+    }
+
+    .wrapper {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        }
+
+
+    .top_border {
+/*
+        min-height: 56px;
+        border-top: 5px solid #333;
+        margin: 0% 5%;
+        position: fixed;
+        background:white;
+        border-bottom: 1px solid #e8e8e8;
+*/
+        display: none;
+        position: inherit;
+        width: 90%;
+        min-width: 500px;
+        padding: 17px 5%;
+    }
+
+    .top_nav {
+        float: right;
+        line-height: 56px;
+    }
+
+    h3 {
+        padding: 0px 0px 0px;
+    }
+
+/*
+
+    .title::before {
+        background: red;
+        left: 0;
+        top: 0;
+        margin-right: 10px;
+        display: inline-block;
+        content: "";
+        height: 33px;
+        border-left: 4px solid rgb(var(--rgb-primary));
+        width: 4px;
+    }
+*/
+
+    #main {
+        margin: 5%;
+        color: #333;
+        font-family: 'Lora', serif;
+        font-size: 140%;
+        line-height: 150%;
+        flex: 1;
+    }
+
+    .divider {
+        height: 4px;
+        width: 60px;
+        margin-bottom: 50px;
+        background: #F39200;
+    }
+
+    .title {
+        color: #363636;
+        font-weight: 600;
+        line-height: 1.125;
+        margin-bottom: 0.5rem;
+    }
+
+    .footer_copy {
+        font: 14px/1.8 Arial,Helvetica,sans-serif;
+        margin-top: 70px; /* 150px */
+    }
+
+    #footer {
+        display: none;
+        border-top: 1px solid #e8e8e8;
+
+/*
+        background: #F8F8F8;
+*/
+   }
+
+    #wrapper-footer{
+        margin: 0% 5%;
+}
+
+    @media screen and (min-width: 992px) {
+        #main, #wrapper-footer {
+        padding-left: 10%;
+        padding-right: 45%;
+        }
+        .top_border {
+        position: fixed;
+/*
+        display: block;
+        padding-right: 10%;
+        position: inherit;
+*/
+        }
+    }
+
+    a {
+        color: inherit;
+    }
+
+    ::selection {
+        background: yellow;
+    }
+
+    ::-moz-selection {
+        background: yellow;
+    }
+
