@@ -21,6 +21,7 @@
         margin: 0;
         padding: 0;
         font-size: 1em;
+        min-width: 500px;
 
     }
 
@@ -56,18 +57,21 @@
         min-height: 100vh;
         display: flex;
         flex-direction: column;
-        min-width: 400px;
         }
 
     .top_border {
 /*
         min-height: 56px;
-        border-bottom: 1px solid #e8e8e8;
         border-top: 5px solid #333;
-*/
-        display: none;
-        padding: 17px ;
         margin: 0% 5%;
+        display: none;
+        position: fixed;
+*/
+        border-bottom: 1px solid #e8e8e8;
+        position: inherit;
+        width: 90%;
+        min-width: 500px;
+        padding: 17px 5%;
     }
 
     .top_nav {
@@ -140,7 +144,12 @@
         padding-right: 45%;
         }
         .top_border {
+        position: fixed;
+/*
+        display: block;
         padding-right: 10%;
+        position: inherit;
+*/
         }
     }
 
